@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
@@ -179,6 +180,12 @@ body {
 .home-sci a:nth-child(3) {
     opacity: 0;
     animation: slideTop 1s ease forwards;
+    animation-delay: 2.1s;
+}
+
+.home-sci a:nth-child(4) {
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
     animation-delay: 2.1s;
 }
 
